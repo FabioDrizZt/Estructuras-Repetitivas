@@ -33,6 +33,6 @@ echo "Cuenta regresiva: $contador" . PHP_EOL;
 $contador--;
 } */
 
-for ($contador = 10; $contador > 0; $contador--) {
-    echo "Cuenta regresiva: $contador" . PHP_EOL;
+for ($contador = 0; $contador < 10; $contador++) {
+    echo "Cuenta hacia arriba: $contador" . PHP_EOL;
 }
