@@ -38,3 +38,5 @@ for ($nota = readline("Ingrese la nota del alumno: "); $nota >= 0; $nota = readl
         $contadora++;
     }
 }
+
+echo "Nueva linea de código";
